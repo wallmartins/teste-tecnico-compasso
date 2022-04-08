@@ -25,6 +25,14 @@ const Card = ({ user }) => {
           </span>
         </p>
       </div>
+      <a
+        href={user.html_url}
+        target="_blank"
+        className={styles.card__user__profile}
+        rel="noreferrer"
+      >
+        + perfil completo
+      </a>
     </div>
   );
 };

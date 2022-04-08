@@ -2,6 +2,7 @@
   display: grid;
   justify-content: center;
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .card__user__avatar {
@@ -28,7 +29,6 @@
 .card__user__metrics {
   display: flex;
   gap: 2rem;
-  padding-bottom: 1rem;
   margin: 0 auto;
 }
 
@@ -40,4 +40,13 @@
 .card__user__follows__indicator {
   color: #000;
   font-weight: bold;
+}
+
+.card__user__profile {
+  display: block;
+  text-decoration: none;
+  font-size: 0.675rem;
+  font-weight: bold;
+  text-align: center;
+  color: #304D63;
 }
