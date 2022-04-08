@@ -1,0 +1,43 @@
+.card__container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.card__user__avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+}
+
+.card__user__name {
+  font-size: 2rem;
+  color: #304D63;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.card__user__bio {
+  font-size: 1rem;
+  color: #000;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.card__user__metrics {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.card__user__follows {
+  font-weight: normal;
+  color: #304D63;
+}
+
+.card__user__follows__indicator {
+  color: #000;
+  font-weight: bold;
+}

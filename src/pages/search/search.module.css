@@ -1,0 +1,22 @@
+.search__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search__container__title {
+  font-size: 2rem;
+  color: #304D63;
+  text-align: center;
+}
+
+.search__search {
+  padding: 1rem 0.5rem;
+  width: 300px;
+  border: 2px solid #304D63;
+  border-radius: 6px 0 0 6px;
+  color: #000;
+  font-size: 0.825rem;
+}

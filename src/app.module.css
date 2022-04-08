@@ -1,0 +1,27 @@
+.app__login {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem;
+  background: #304D63;
+  border: 2px solid #304D63;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.app__login:hover {
+  background: #fff;
+  color: #304D63;
+}
+
+.app__login__icon {
+  fill: #fff;
+}
+
+.app__login:hover > .app__login__icon {
+  fill: #304D63;
+}
